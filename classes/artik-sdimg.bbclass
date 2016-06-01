@@ -61,6 +61,7 @@ BL1_OFFSET ?= "1"
 BL2_OFFSET ?= "31"
 UBOOT_OFFSET ?= "63"
 TZSW_OFFSET ?= "719"
+# To be adapted by machine, here artik10 is used as reference
 UBOOT_PARAMS_OFFSET ?= "1231"
 UBOOT_PARAMS="params_sd.${UBOOT_SUFFIX}"
 
